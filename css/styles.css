@@ -1,0 +1,109 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* доролнительный цвет текста #FFFFFF */
+
+/* цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+
+/* акцент #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --additional-text-color: #ffffff;
+  --bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --accent: #2196f3;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
+}
+
+/* header */
+.logo {
+  color: var(--secondary-text-color);
+}
+
+.logo-accent {
+  color: var(--accent);
+}
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent);
+}
+
+.link.current {
+  color: var(--accent);
+}
+
+.link {
+  color: var(--primary-text-color);
+}
+
+/* main */
+/* Герой */
+
+.hero {
+  color: var(--additional-text-color);
+  background-color: #2f303a;
+}
+
+.button {
+  background-color: var(--accent);
+  color: var(--additional-text-color);
+}
+
+/* Особенности */
+
+.features .title {
+  display: none;
+}
+
+.heading {
+  color: var(--secondary-text-color);
+}
+
+/* Направление */
+
+.title {
+  color: var(--secondary-text-color);
+}
+
+/* Команда */
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  color: var(--additional-text-color);
+}
+
+.footer .logo {
+  color: var(--additional-text-color);
+}
+
+/* portfolio */
+
+.sec-nav {
+  background-color: #f5f4fa;
+  color: var(--secondary-text-color);
+}
+
+.sec-nav.current {
+  background-color: var(--accent);
+  color: var(--additional-text-color);
+}
