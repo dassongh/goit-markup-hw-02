@@ -108,6 +108,12 @@ body {
   color: var(--additional-text-color);
 }
 
+.sec-nav:hover,
+.sec-nav:focus {
+  background-color: var(--accent);
+  color: var(--additional-text-color);
+}
+
 .portfolio .heading {
   display: none;
 }
