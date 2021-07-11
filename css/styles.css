@@ -107,3 +107,7 @@ body {
   background-color: var(--accent);
   color: var(--additional-text-color);
 }
+
+.portfolio .heading {
+  display: none;
+}
